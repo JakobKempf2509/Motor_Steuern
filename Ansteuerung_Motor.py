@@ -1,7 +1,7 @@
 #mit diesem Programmcode wird ein DC Motor mittels Raspberry Pi angesteuert
 #J. Kempf 2020-04-17
 
-import RPI.GPIO as GPIO #Zugriff auf das GPIO-Modul
+import RPi.GPIO as GPIO #Zugriff auf das GPIO-Modul
 from time import sleep #Aktivierung der Modulzeit
 
 GPIO.setmode(GPIO.BOARD)
