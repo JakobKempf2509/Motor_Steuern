@@ -60,7 +60,7 @@ while abbruch:
 
         else:
             print("Sie sind als Benutzer nicht für diese Anwendung autorisiert, bitte versuchen Sie es nochmal")
-            sleep(5)
+            time.sleep(5)
 
     except ValueError:
         print("Es gab einen Fehler bei dem gewünschten Prozess, bitte versuchen Sie es erneut")
